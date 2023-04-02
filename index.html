@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travellian</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header" >
+        <nav class="nav-parent" >
+            <a href="index.html">
+                <img class="logo" src="images/Logo.svg" alt="">
+            </a>
+            <ul>
+                <li class="nav-li"><a href="">Home</a></li>
+                <li class="nav-li"><a href="">Explore</a></li>
+                <li class="nav-li"><a href="">Travel</a></li>
+                <li class="nav-li"><a href="">Blog</a></li>
+                <li class="nav-li"><a href="">Pricing</a></li>
+                <div class="btn-container" >
+                    <button class="btn login " type="button">Login</button>
+                    <button class="btn signup" type="button">Sign Up</button>
+                </div>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="text-container" >
+        <p class="main-text" >Start your unforgettable <br> journey with us.</p>
+        <p class="second-text" >The best travel for your jouney begins now</p>
+    </div>
+    <div class="booking" >
+            <div class="booking-container">
+                <div class="category">
+                  <label for="destination">Destination</label>
+                  <select name="countries" id="destination">
+                    <option value="GE">Georgia</option>
+                    <option value="UA">Ukraine</option>
+                    <option value="IT">Italy</option>
+                    <option value="NED">Netherland</option>
+                  </select>
+                </div>
+                <div class="category">
+                  <label for="person">Person</label>
+                  <select name="person" id="person">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <div class="category">
+                  <label for="check-in">Check In</label>
+                  <input class="input-text"  type="date" id="check-in" name="check-in">
+                </div>
+                <div class="category">
+                  <label for="check-out">Check Out</label>
+                  <input class="input-text"  type="date" id="check-out" name="check-out">
+                </div>
+              </div>              
+        <div class="book-button" >
+            <button class="book-now" >Book Now</button>
+        </div>
+    </div>
+</body>
+</html>
